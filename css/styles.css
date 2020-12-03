@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    line-height: 1.6rem;
+}
+
+:scope{
+    --black-color:#000;
+    --green-color:#018208;
+    --white-color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+body{
+     font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+
+
+
+
+
