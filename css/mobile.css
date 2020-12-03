@@ -1,0 +1,58 @@
+/* Mobile View */
+@media(max-width:500px) {
+
+    /* NAVBAR */
+    #nav-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo h1 {
+        color: var(--white-color);
+        padding-bottom: 1.1rem;
+    }
+
+
+    /* SHOWCASE */
+    .showcase-header h1 {
+        font-size: 2rem;
+       
+    }
+
+    .showcase-header h1, .showcase-text p {
+        text-align: center;
+    }
+
+    .showcase-text p {
+        font-size: 1rem;
+        padding: 0 1.3rem;
+    }
+}
+
+
+/* Tablet View */
+@media(min-width:501px) and (max-width:768px) {
+
+    .showcase-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .showcase-header h1, .showcase-text p {
+        text-align: center;
+    }
+
+    .showcase-text p {
+        font-size: 1rem;
+        padding: 0 1.3rem;
+    }
+
+}
+
+
+/* Normal View */
+@media(min-width:769px) and (max-width:1024px) {
+    .showcase-text p {
+        font-size: 1.1rem;
+        padding: 0 1.3rem;
+    }
+}

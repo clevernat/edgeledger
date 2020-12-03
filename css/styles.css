@@ -1,28 +1,127 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     line-height: 1.6rem;
+    list-style: none;
+    overflow: none;
 }
 
-:scope{
-    --black-color:#000;
-    --green-color:#018208;
-    --white-color:#fff;
+:scope {
+    --black-color: rgba(3, 3, 3, 0.897);
+    --green-color: #018208;
+    --white-color: #fff;
+    --light-green:rgb(22, 160, 17);
+    --overlay-color:rgba(0,0,0,0.6);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Ramabhadra', sans-serif;
 }
 
-body{
-     font-family: 'Ubuntu Condensed', sans-serif;
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+/* NAVBAR */
+#nav-bar {
+    display: flex;
+    background-color: var(--black-color);
+    justify-content: space-between;
+    padding: 1.3rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#nav-bar ul a li {
+    display: inline-block;
+}
+
+#nav-bar ul a, #nav-bar ul a:hover,.logo h1 {
+    color: var(--white-color);
+}
+
+#nav-bar ul a, #nav-bar ul a:hover {
+    font-size: 1.1rem;
+    padding: 0.9rem;
+    border-radius: 4px;
+}
+
+
+#nav-bar ul a:hover {
+    background-color: var(--green-color);
+}
+
+span.edge,
+.logo h1 i {
+    color: var(--green-color);
 }
 
 
 
+/* SHOWCASE */
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+}
+
+.showcase-main,.overlay{
+    height: 90vh;
+}
+
+.showcase-main,.showcase-btn a button, .showcase-btn a button:hover{
+    color: var(--white-color);
+}
+
+.showcase-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: relative;;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:var(--overlay-color);
+    z-index: 1;
+}
+
+.showcase-header h1{
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.showcase-text p{
+    font-size: 1.3rem;
+}
+
+.showcase-btn a button, .showcase-btn a button:hover{
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 
+.showcase-btn a button{
+    background-color: var(--light-green);
+}
 
 
+.showcase-btn a button:hover{
+    background-color: var(--green-color);
+}
