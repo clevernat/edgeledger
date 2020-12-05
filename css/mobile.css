@@ -27,7 +27,78 @@
         font-size: 1rem;
         padding: 0 1.3rem;
     }
+
+
+
+    /* What we do */
+    #what-we-do{
+        padding: 1rem;
+    }
+
+    .we-do{
+        flex-direction: column;
+    }
+
+
+    .we-do-one, .we-do-two, .we-do-three{
+        padding: 0 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .we-do-one h3, .we-do-two h3, .we-do-three h3{
+        font-size: 1rem;
+    }
+
+    #what-we-do h2{
+        padding:2rem 0 0rem 0;
+    }
+
+    /* Who are we */
+    .who-we-are-img{
+        display: none;
+    }
+    .who-we-are-text h2{
+        font-size: 2rem;
+    }
+
+    #who-we-are, .who-we-are-text{
+        height: 75vh;
+    }
+
+
+
+    /* Our Clients */
+    #our-clients{
+        margin: auto;
+        width: 320px;
+    }
+
+    .client-five, .client-four{
+        display: none;
+    }
+
+    .client-one img, .client-two img, .client-three img, .client-four img, .client-five img{
+        padding:0 1.5rem;
+    }
+
+
+    /* Contact Us and Map */
+    .map {
+        display: none;
+    }
+    
+
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* Tablet View */
@@ -46,7 +117,66 @@
         padding: 0 1.3rem;
     }
 
+     /* What we do */
+     #what-we-do{
+        padding: 1rem;
+    }
+
+    .we-do{
+        flex-direction: column;
+    }
+
+
+    .we-do-one, .we-do-two, .we-do-three{
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    /* Who we are */
+    .who-we-are-text h2 {
+        font-size: 1.6rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .who-we-are-text ul li {
+        padding: 0.4rem 0;
+    }
+    
+    #who-we-are, .who-we-are-text{
+        height: 90vh;
+    }
+
+
+
+
+     /* Our Clients */
+     #our-clients{
+        margin: auto;
+        width: 484px;
+    }
+
+
+    .client-one img, .client-two img, .client-three img, .client-four img, .client-five img{
+        padding:0.5rem;
+    }
+
+    /* Contact Us */
+    .form {
+        flex: 1;
+    }
+    
+    .map {
+        flex: 1.3;
+    }
+    
+
 }
+
+
+
+
+
+
 
 
 /* Normal View */
@@ -55,4 +185,47 @@
         font-size: 1.1rem;
         padding: 0 1.3rem;
     }
+
+    /* What we do */
+
+    .we-do-one, .we-do-two, .we-do-three{
+        flex-direction: column;
+        
+    }
+
+    .we-do-one h3, .we-do-two h3, .we-do-three h3{
+        font-size: 1.1rem;
+    }
+
+    .we-do-one i, .we-do-two i, .we-do-three i{
+       margin-bottom: 1rem;
+    }
+
+    #what-we-do{
+        padding: 0 2rem 5.5rem;
+        text-align: center;
+    }
+
+    
+    #what-we-do h2{
+        padding:4rem 0 0rem 0;
+        font-size: 2rem;
+    }
+
+    #who-we-are, .who-we-are-text{
+        height: 75vh;
+    }
+
+
+    /* Our Clients */
+    #our-clients{
+        margin: auto;
+        width: 750px;
+    }
+
+    .client-one img, .client-two img, .client-three img, .client-four img, .client-five img{
+        padding:1rem;
+    }
+
+
 }
