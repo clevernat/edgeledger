@@ -29,7 +29,7 @@ document.addEventListener('scroll', function() {
         {
           scrollTop: $(hash).offset().top -110
         },
-        1000
+        1100
       );
     }
   });
