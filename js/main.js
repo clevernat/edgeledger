@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function(e) {
 })
 
 
-
 // Sticky menu background
 document.addEventListener('scroll', function() {
     if (window.scrollY > 150) {
